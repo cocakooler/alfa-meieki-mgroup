@@ -171,9 +171,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　暗証番号の入力に成功した！！</div>
-              <div class="clear-message__content">続いて表示される謎を解いて、<br>
-                コンピューターウイルスを取り除こう！</div>
+              <div class="clear-message__title">STAGE：2　暗証番号の入力に成功！</div>
+              <div class="clear-message__content">暗証番号の入力によりセキュリティソフトが起動。<br>
+                機密情報が保護された。！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
