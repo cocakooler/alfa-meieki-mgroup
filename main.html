@@ -85,7 +85,7 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">解読成功！</div>
+              <div class="clear-message__title">暗号の解読に成功！！</div>
               <div class="clear-message__content">君はNの指示通り、機密情報管理サイトのロゴをクリックした！</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
@@ -170,9 +170,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　暗証番号の入力に成功！</div>
+              <div class="clear-message__title">STAGE：2　暗証番号の入力に成功！！</div>
               <div class="clear-message__content">暗証番号の入力によりセキュリティソフトが起動。<br>
-                国家の機密情報が保護された。！</div>
+                国家の機密情報が保護された。</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
